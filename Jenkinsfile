@@ -5,7 +5,7 @@ pipeline {
 		image_name = "eureka-service"
 		image_tag = "master-latest"
 		dockerhub_repo = "johnpranay"
-		mavenHome= "/opt/maven"
+		mavenHome= "/usr/share/maven"
 	}
 	
  agent {label 'docker'}
